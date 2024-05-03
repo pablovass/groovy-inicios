@@ -1,6 +1,3 @@
-Por supuesto, aquí tienes la versión en inglés del README.md:
-
----
 
 # Groovy Projects Repository from 0 to 100
 
