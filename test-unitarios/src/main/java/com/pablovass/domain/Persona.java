@@ -1,11 +1,21 @@
 package com.pablovass.domain;
 
-// Persona.java
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Persona {
     private Long id;
     private String nombre;
     private int edad;
 
-    // Constructores, getters y setters
+public  int sumar(int n){
+    return n;
 }
 
+
+}
